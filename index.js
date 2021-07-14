@@ -37,8 +37,8 @@ exports.newDiscourseTopic = (req, res) => {
         params: {
           chat_id: chatID,
           text:
-            `✒️ <i>New post on the forum:</i> \n\n` +
-            `<b>${title}</b> \n\n` +
+            `✒️ <b>New post on the forum:</b> \n\n` +
+            `<b><u>${title}</u></b> \n\n` +
             `<a href="https://list.hacman.org.uk/t/${id}"> 🔗 View and reply on the forum</a>`,
           parse_mode: "HTML",
         },
